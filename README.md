@@ -1,9 +1,14 @@
-# VLSI-LAB-EXP-4
-SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
+EXP-4
 
-# AIM: 
- To simulate and synthesis JK-Flipflop, SR-Flipflop, T-Flipflop, D-Flipflop And counters using Vivado 2023.2
-# APPARATUS REQUIRED:
+DATE:
+
+             SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
+
+**AIM:**
+To simulate and synthesis JK-Flipflop, SR-Flipflop, T-Flipflop, D-Flipflop And counters using Vivado 2023.2
+
+**APPARATUS REQUIRED:**
+
 vivado 2023
 
 # PROCEDURE:
@@ -22,14 +27,14 @@ STEP:6 Click the simulation to simulate the program and give the inputs and veri
 
 STEP:7 compare the output with truth table.
 
-**LOGIC DIAGRAM**
 
-SR FLIPFLOP
+LOGIC DIAGRAM
+
+ SR FLIPFLOP:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/77fb7f38-5649-4778-a987-8468df9ea3c3)
 
-# VERILOG CODE:
-
+ VERILOG CODE:
 module SR(clk,s,r,rst,q );
 
 input s,r,clk,rst;
@@ -66,16 +71,17 @@ end
 
 Endmodule
 
-# Output:
+ Output:
+![331348058-45243aaa-d907-493d-a13f-7443b3bfa287](https://github.com/Udaychaitanya011/VLSI-LAB-EXP-4/assets/161430397/16a32bed-775f-417f-91ca-ca2c0f1da109)
 
-![image](https://github.com/Bharathchows18/VLSI-LAB-EXP-4/assets/161430676/f3075dc9-4be7-437f-97b0-b941e5cbe5cd)
+
+ JK FLIPFLOP:
+![301743103-1510e030-4ddc-42b1-88ce-d00f6f0dc7e6](https://github.com/Udaychaitanya011/VLSI-LAB-EXP-4/assets/161430397/f6fa9fa4-b660-4279-b978-24525b5d83ce)
 
 
-JK FLIPFLOP
 
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/1510e030-4ddc-42b1-88ce-d00f6f0dc7e6)
+ VERILOG CODE:
 
-VERILOG CODE:
 module jk(j,k,clk,rst,Q);
 
 input j,k,clk,rst;
@@ -110,15 +116,16 @@ end
 
 Endmodule
 
-# Output:
+ Output:
+![331347927-3312233d-9ae6-4787-b002-fc064731b50f](https://github.com/Udaychaitanya011/VLSI-LAB-EXP-4/assets/161430397/6d707bda-b2d0-49e7-833f-3ab3f1832452)
 
-![image](https://github.com/Bharathchows18/VLSI-LAB-EXP-4/assets/161430676/02c72dc3-644f-4796-a793-b207486cb72f)
 
-# T FLIPFLOP:
+ T FLIPFLOP:
+![331347949-5f40064f-7491-4a52-90a0-6762ce891f55](https://github.com/Udaychaitanya011/VLSI-LAB-EXP-4/assets/161430397/255aaef9-0684-4a13-aa81-adfdc5c60d68)
 
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/7a020379-efb1-4104-85ee-439d660baa08)
 
-# VERILOG CODE:
+
+ VERILOG CODE:
 
 module tff(t,clk,rst,Q);
 
@@ -146,16 +153,15 @@ end
 
 Endmodule
 
-# Output:
+ Output:
+![331347837-6ded158f-9696-4b37-b460-c8e9222e601d](https://github.com/Udaychaitanya011/VLSI-LAB-EXP-4/assets/161430397/3e17bf86-5eea-4ec0-9557-d51b5d9ef2d5)
 
-![image](https://github.com/Bharathchows18/VLSI-LAB-EXP-4/assets/161430676/fcf3ad61-c802-408c-a4af-b00ed844ef83)
+
+ D FLIPFLOP:
+![331347828-92d1bacc-e9e8-40ea-a324-25a474eb0e91](https://github.com/Udaychaitanya011/VLSI-LAB-EXP-4/assets/161430397/91eb1f6d-fffc-4075-b5e0-c2bb7a6a0305)
 
 
-# D FLIPFLOP:
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/dda843c5-f0a0-4b51-93a2-eaa4b7fa8aa0)
-
-# VERILOG CODE:
+ VERILOG CODE:
 
 module dff(d,clk,rst,Q);
 
@@ -179,16 +185,20 @@ end
 
 Endmodule
 
-# Output:
+ Output:
+![331347700-2bd11870-e55b-43a9-be17-3df61daf2478](https://github.com/Udaychaitanya011/VLSI-LAB-EXP-4/assets/161430397/a2b8c99e-966e-4173-a878-9d2cca30b631)
 
-![image](https://github.com/Bharathchows18/VLSI-LAB-EXP-4/assets/161430676/deadf610-3722-4e54-921f-bb42f1e3661f)
+
+ COUNTER:
+![331347653-b4cf50df-a052-4d6d-9bb2-b9aebd771584](https://github.com/Udaychaitanya011/VLSI-LAB-EXP-4/assets/161430397/3e30f700-9182-47be-b2de-d26c8a87c6e3)
 
 
-COUNTER
+4bit UPDOWN COUNTER
 
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-4/assets/6987778/a1fc5f68-aafb-49a1-93d2-779529f525fa)
+![331347432-fef31a1b-f55e-4b01-b857-81e635687992](https://github.com/Udaychaitanya011/VLSI-LAB-EXP-4/assets/161430397/06f349b3-3fb1-4257-ab73-eb048f1970bb)
 
-# VERILOG CODE:
+
+ VERILOG CODE:
 
 module updown(clk,rst,updown,out);
 
@@ -212,13 +222,16 @@ end
 
 endmodule
 
-# Output:
-![image](https://github.com/Bharathchows18/VLSI-LAB-EXP-4/assets/161430676/3db41447-7cbf-4ba3-8452-697066379ed0
+Output:
+![331346909-93f41368-dfbc-486f-8a47-525af2a5511e](https://github.com/Udaychaitanya011/VLSI-LAB-EXP-4/assets/161430397/5480fedc-52d2-486b-998b-8c8daab4b900)
 
-# MOD 10 COUNER:
-![image](https://github.com/Bharathchows18/VLSI-LAB-EXP-4/assets/161430676/9cdc72ef-56e2-4ff7-af71-ebf2667f4fea)
 
-# VERILOG CODE:
+ MOD 10 COUNER:
+ 
+![331346889-d18df4cb-a444-41f4-8a5c-8aa247c14e3e](https://github.com/Udaychaitanya011/VLSI-LAB-EXP-4/assets/161430397/e7e98869-0f96-45c8-a8d8-58f891c4010e)
+
+
+VERILOG CODE:
 
 module mod(clk,rst,out);
 
@@ -242,13 +255,15 @@ end
 
 endmodule
 
-# Output:
-![image](https://github.com/Bharathchows18/VLSI-LAB-EXP-4/assets/161430676/956eacd0-341f-4289-883c-19c7fdf1cfe7)
+ Output:
 
-# RIPPLE CARRY COUNTER:
-![image](https://github.com/Bharathchows18/VLSI-LAB-EXP-4/assets/161430676/aa02fa1b-23a6-4651-a15e-38ac1420c577)
+![331346592-df84bdbe-05a1-4a4d-952f-c4e3ac83c89a](https://github.com/Udaychaitanya011/VLSI-LAB-EXP-4/assets/161430397/197ecc0f-4449-4e01-b9f4-bfe02974ece7)
 
-# VERILOG CODE
+RIPPLE CARRY COUNTER:
+
+![331346533-e1858e63-5bc4-4d6b-974e-e251d82154d2](https://github.com/Udaychaitanya011/VLSI-LAB-EXP-4/assets/161430397/236c62ed-8c17-43e8-863f-82938eaf836e)
+
+VERILOG CODE
 
 module ripple_carry_counter(q, clk, reset);
 
@@ -300,19 +315,10 @@ q = d;
 
 endmodule
 
-# Output:
-![image](https://github.com/Bharathchows18/VLSI-LAB-EXP-4/assets/161430676/614b7c4a-7c17-4118-acf8-997258fabbd6)
+Output:
+![331346337-b6fde017-8c0f-4f03-847a-149c86d518e7](https://github.com/Udaychaitanya011/VLSI-LAB-EXP-4/assets/161430397/7fe8e184-42af-4f11-9dae-5d14350cce6d)
 
-# RESULT:
+
+ RESULT:
+
 Thus simulate and synthesis JK-Flipflop, SR-Flipflop, T-Flipflop, D-Flipflop And counters was succesfully executed and verified.
-
-
-
-
-
-
-
-
-
-  
-
